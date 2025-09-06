@@ -1,9 +1,24 @@
 # 🚨 Women Safety Alert System
 
-This project is a **prototype for women safety** that allows sending emergency alerts via **Console, Desktop GUI, and Web Browser**.  
-It is developed as part of a B.Tech (CSE) coursework and can be further extended to integrate with **SMS/WhatsApp APIs** for real-world usage.
+![Status](https://img.shields.io/badge/status-active-success)
+![Tech](https://img.shields.io/badge/Tech-Java%20%7C%20HTML%20%7C%20CSS%20%7C%20JS-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+A lightweight prototype to trigger **emergency alerts** for women’s safety.  
+Includes **Java (Console + GUI)** and **Web (HTML/JS)** versions.  
+Future-ready to integrate **SMS/WhatsApp APIs** and **GPS live location**.
 
 ---
 
-## 📂 Project Structure
+## ✨ Features
+- One-tap **SOS alert**
+- **Console** & **Desktop GUI** apps in Java
+- **Web demo** (HTML/CSS/JS) — easy to host on Vercel/GitHub Pages
+- Saves alerts to `alert_log.txt`
+- Shows **local IP address** in GUI (for diagnostics)
+- Clear roadmap for **real SMS/WhatsApp API** integration
+
+---
+
+## 🧱 Folder Structure
 
