@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Women Safety Alert</title>
+  <style>
+    body {
+      text-align: center;
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+    }
+    #sos {
+      background-color: red;
+      color: white;
+      font-size: 40px;
+      padding: 30px 60px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    #sos:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <h1>Women Safety Emergency Alert</h1>
+  <button id="sos" onclick="sendAlert()">HELP</button>
+
+  <script>
+    function sendAlert() {
+      alert("🚨 ALERT: Emergency signal sent!\nMessage sent to Guardian.");
+      console.log("ALERT: Emergency signal sent from Jaipur, Rajasthan at 7:30 PM");
+    }
+  </script>
+</body>
+</html>
